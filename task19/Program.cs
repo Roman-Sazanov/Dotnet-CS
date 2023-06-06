@@ -15,7 +15,7 @@ int Palindrome(int num)
         int dig2 = num / 1000 % 10;
         int dig4 = num % 100 / 10;
         int dig5 = num % 10;
-        if(dig1 == dig5 || dig2 == dig4)
+        if(dig1 == dig5 && dig2 == dig4)
         {
             Console.WriteLine("Число является палиндромом");
         }
